@@ -1,0 +1,26 @@
+.header {
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  gap: 100px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  text-decoration: underline;
+  text-decoration-color: #583fbc;
+}
+.navigation__list {
+  color: var(--main-color);
+  display: flex;
+  gap: 40px;
+  font-weight: 700;
+}
+
+.navigation__list--item {
+  color: var(--main-color);
+}
